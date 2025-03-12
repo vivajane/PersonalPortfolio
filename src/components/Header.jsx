@@ -16,8 +16,8 @@ const Header = () => {
         setShow((prev) => !prev);
     }
     return (
-        <div className={`w-full relative h-screen ${show && "overflow-hidden "}`}>
-            <div className=" flex justify-between w-full items-center py-12 px-24">
+        <div className={`w-full relative ${show && "overflow-hidden h-screen "}`}>
+            <div className=" flex justify-between w-full items-center py-8 px-24">
                 <h1 className="text-xl w-1/2 font-comfortaa font-bold">KosiVivian</h1>
                 <ul className="hidden md:flex gap-10 ">
                     {navlinks.map((item) => (

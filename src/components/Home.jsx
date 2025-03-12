@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="md:px-24 px-8 sm:px-12 pt-16 w-full ">
-    <div className=" flex py-4 justify-between ">
+    <div className="md:px-24 px-8 sm:px-12 pt-14 w-full ">
+    <div className=" flex justify-between ">
       <div className="md:w-1/2 space-y-3">
-      <div className="relative">
+      <div className="relative block md:hidden">
         <div className="bg-yellow-400 w-40 h-40 md:w-96 md:h-96 rounded-full"></div>
         <div className="absolute top-4 left-4 h-28 w-28 md:w-80 md:h-80 rounded-full overflow-hidden">
           <img src={pic} alt="pic" />
