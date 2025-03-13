@@ -51,7 +51,7 @@ const projects = [
     id: 5,
     title: "VIVYS FASHION",
     description: ` This is a fashion website where users get to see list of
-    displayed proudct, add to cart and view cart. `,
+    displayed proudct, add to cart, view cart and even checkout the product`,
     image: vivys,
     link: "https://vivys-fashion-house.vercel.app/",
   },
@@ -66,11 +66,14 @@ const projects = [
 ];
 const ProjectsCon = () => {
   return <div>
-    <h1 className="font-playfair text-3xl font-bold text-center">PROJECTS</h1>
-    <ul className=" md:px-24  sm:px-12 px-8 py-8 grid md:grid-cols-3 gap-10 md:gap-4">
+    <h1 className="font-playfair text-3xl py-3 font-bold text-center">PROJECTS</h1>
+    <ul className=" md:px-24  sm:px-12 px-8 py-8  grid md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-8">
         {
             projects.map((project) => (
-                <li className="border-2 p-4 rounded-xl flex flex-col justify-between shadow-2xl py-8 px-12 " key={project.id}>
+                <li data-aos="fade-down"
+                data-aos-delay="400"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="600"  className="border-2 p-4   rounded-xl flex flex-col justify-between shadow-2xl py-8 px-4 " key={project.id}>
                     <Projects project={project}/>
                 </li>
             ))

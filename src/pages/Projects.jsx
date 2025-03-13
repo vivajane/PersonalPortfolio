@@ -3,7 +3,7 @@ import ProjectsCon from '../components/ProjectsCon'
 
 const Projects = () => {
   return (
-    <div>
+    <div id='projects'>
       <ProjectsCon/>
     </div>
   )
