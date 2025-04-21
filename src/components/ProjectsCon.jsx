@@ -13,14 +13,14 @@ import timbu from "../assets/images/timbu.png"
 import { NavLink } from "react-router-dom";
 import { SiVercel } from "react-icons/si";
 const projects = [
+  
   {
     id: 1,
-    title: "LAUNDRY EASE",
-    description: `The laundry website allows users to schedule and manage their
-        laundry services online .It provides features like service
-        selection and pricing details`,
-    image: laundry,
-    link: "https://laundry-ease.vercel.app/",
+    title: "TIMBU WEBSITE",
+    description: `Timbu is an e-commerce site where sales and purchases take place
+    between users. It is a platform for buying and selling products online.`,
+    image: timbu,
+    link: "https://timbu-e-commerce-app-82zw.vercel.app/",
   },
   {
     id: 2,
@@ -33,12 +33,14 @@ const projects = [
   },
   {
     id: 3,
-    title: "TIMBU WEBSITE",
-    description: `Timbu is an e-commerce site where sales and purchases take place
-    between users. It is a platform for buying and selling products online.`,
-    image: timbu,
-    link: "https://timbu-e-commerce-app-82zw.vercel.app/",
+    title: "LAUNDRY EASE",
+    description: `The laundry website allows users to schedule and manage their
+        laundry services online .It provides features like service
+        selection and pricing details`,
+    image: laundry,
+    link: "https://laundry-ease.vercel.app/",
   },
+ 
   {
     id: 4,
     title: "FARMTRUST",
