@@ -20,7 +20,7 @@ const projects = [
     description: `Timbu is an e-commerce site where sales and purchases take place
     between users. It is a platform for buying and selling products online.`,
     image: timbu,
-    link: "https://timbu-e-commerce-app-82zw.vercel.app/",
+    link: "https://timbu-e-commerce-app.vercel.app/",
   },
   {
     id: 2,

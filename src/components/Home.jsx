@@ -31,7 +31,7 @@ const Home = () => {
         </p>
         <div className="flex justify-between md:justify-normal py-5 gap-4">
         <div className="border-2 hover:bg-[#FDC435] border-black rounded-md px-5 py-2"><NavLink to= "https://github.com/vivajane" target="_blank">GitHub</NavLink></div>
-       <div className="border-2 border-black hover:bg-[#FDC435] rounded-md px-5 py-2"> <NavLink to= "https://drive.google.com/file/d/1XhRJMQRrCFrsxG4jEvoKHdfxL1PpG4Qp/view?usp=sharing" target="_blank">Resume</NavLink></div>
+       <div className="border-2 border-black hover:bg-[#FDC435] rounded-md px-5 py-2"> <NavLink to= "https://docs.google.com/document/d/1R0syAnLdlBbzqpCYGQf5JXaTp4VDqVto/edit?usp=sharing&ouid=102718640907764121584&rtpof=true&sd=true" target="_blank">Resume</NavLink></div>
     </div>
       </div>
       <div  className="relative md:block hidden">
