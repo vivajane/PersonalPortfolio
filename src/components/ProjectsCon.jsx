@@ -1,21 +1,22 @@
 import React from "react";
-// import logo from "../images/react-quiz-app.png";
 import agro from "../assets/images/agr.png";
-// import cart from "../images/cart.png";
-// import task from "../images/taskmanager.png";
-// import todo from "../images/todolist.png";
+
 import vivys from "../assets/images/vivysfashion.png";
-import elva from "../assets/images/elva.png";
 import famtrust from "../assets/images/famtrustproject.png";
 import laundry from "../assets/images/laundyEase.png";
-// import safe from "../images/mini.png";
+import medtech from "../assets/images/medtech.png"
 import timbu from "../assets/images/timbu.png"
 import { NavLink } from "react-router-dom";
-import { SiVercel } from "react-icons/si";
 const projects = [
-  
-  {
+    {
     id: 1,
+    title: "MEDTECH",
+    description: `MedTech is a healthcare website that allows patients to book their preferred doctor's appointment online. It has user-friendly interface.`,
+    image: medtech,
+    link: "https://med-tech-theta.vercel.app/",
+  },
+  {
+    id: 2,
     title: "TIMBU WEBSITE",
     description: `Timbu is an e-commerce site where sales and purchases take place
     between users. It is a platform for buying and selling products online.`,
@@ -23,7 +24,7 @@ const projects = [
     link: "https://timbu-e-commerce-app.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "AGROLINK",
     description: `AgroLink serves that serves as a digital marketplace ,
     empowering farmers to showcase their products directly to
@@ -32,7 +33,7 @@ const projects = [
     link: "https://agrolink-wheat.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "LAUNDRY EASE",
     description: `The laundry website allows users to schedule and manage their
         laundry services online .It provides features like service
@@ -42,7 +43,7 @@ const projects = [
   },
  
   {
-    id: 4,
+    id: 5,
     title: "FARMTRUST",
     description: `Family account management app designed to simplify and
     streamline the management of financial resources for families.`,
@@ -50,20 +51,14 @@ const projects = [
     link: "http://famtrustproject.vercel.app/"
   },
   {
-    id: 5,
+    id: 6,
     title: "VIVYS FASHION",
     description: ` This is a fashion website where users get to see list of
     displayed proudct, add to cart, view cart and even checkout the product`,
     image: vivys,
     link: "https://vivys-fashion-house.vercel.app/",
   },
-  {
-    id: 6,
-    title: "ELVA",
-    description: `Elva Project is a mini e-commerce website , where users can buy and sell products. My introuctory project to React Js`,
-    image: elva,
-    link: "https://elva-project.vercel.app/",
-  },
+
   
 ];
 const ProjectsCon = () => {
