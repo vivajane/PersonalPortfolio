@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .active {
-    color: #FDC435 ; /* Tailwind blue-600 */
+    /* color: #FDC435 ; */
     font-weight: bold;
     border-bottom: 2px solid #FDC435;
 }
