@@ -11,45 +11,42 @@ import { NavLink } from "react-router-dom";
 const projects = [
   {
     id: 1,
-    title: "MEDTECH",
-    description: `MedTech is a healthcare website that allows patients to book their preferred doctor's appointment online. It has user-friendly interface.`,
+    title: "MEDTECH -Online Healthcare Booking Platform",
+    description: `A responsive healthcare web application that enables patients to seamlessly book doctor appointments online. Features include doctor listings, appointment scheduling, and user authentication, all within a clean and intuitive interface.`,
     image: medtech,
     link: "https://med-tech-theta.vercel.app/",
-    stack: ["React", "Tailwind CSS", "FireBase", "Render", "Express"],
+    stack: ["React", "Tailwind CSS", "FireBase", "Render", "Express.js"],
   },
   {
     id: 2,
-    title: "TIMBU WEBSITE",
-    description: `Timbu is an e-commerce site where sales and purchases take place
-    between users. It is a platform for buying and selling products online.`,
+    title: "TIMBU WEBSITE -E-Commerce Marketplace",
+    description: `Timbu is a dynamic e-commerce platform that facilitates user-to-user buying and selling of products. It features product listings, cart functionality, secure checkout, and payment integration with Paystack.`,
     image: timbu,
     link: "https://timbu-e-commerce-app.vercel.app/",
     stack: ["React", "Tailwind CSS", "FireBase", "PayStack"],
   },
   {
     id: 3,
-    title: "COSMOS",
-    description: `Cosmos is a platform for sustainable, secure agricultural investment opportunities.`,
+    title: "COSMOS -Agricultural Investment Platform",
+    description: `Cosmos connects investors with secure, sustainable agricultural projects. The platform presents opportunities for investing in vetted farming operations, with real-time updates and easy tracking.
+
+`,
     stack: ["React", "Tailwind CSS", "FireBase"],
     image: cosmos,
     link: "https://cosmos-five-beta.vercel.app/",
   },
   {
     id: 4,
-    title: "AGROLINK",
-    description: `AgroLink serves that serves as a digital marketplace ,
-    empowering farmers to showcase their products directly to
-    consumers.`,
+    title: "AGROLINK -Digital Marketplace for Farmers",
+    description: `AgroLink empowers local farmers by providing a platform to showcase and sell their products directly to consumers. It streamlines the farm-to-table process while improving visibility and income for rural sellers.`,
     image: agro,
-    stack: ["React", "Css"],
+    stack: ["React", "Css, Express.js"],
     link: "https://agrolink-wheat.vercel.app/",
   },
   {
     id: 5,
-    title: "LAUNDRY EASE",
-    description: `The laundry website allows users to schedule and manage their
-        laundry services online .It provides features like service
-        selection and pricing details`,
+    title: "LAUNDRY EASE -Laundry Service Scheduling App",
+    description: `Laundry Ease allows users to schedule and manage laundry services with ease. Features include service selection, time-slot booking, and pricing visibility in a mobile-friendly interface.`,
     image: laundry,
     stack: ["React", "Tailwind CSS"],
     link: "https://laundry-ease.vercel.app/",
@@ -57,18 +54,18 @@ const projects = [
 
   {
     id: 6,
-    title: "FARMTRUST",
-    description: `Family account management app designed to simplify and
-    streamline the management of financial resources for families.`,
+    title: "FARMTRUST -Family Account Management Tool",
+    description: `FarmTrust is a web app designed to help families manage their shared financial resources. Users can create accounts, track contributions, and monitor spending in a simple dashboard.
+
+`,
     image: famtrust,
-    stack: ["React", "Tailwind CSS"],
+    stack: ["React", "Tailwind CSS, Node.js", "Express.js"],
     link: "http://famtrustproject.vercel.app/",
   },
   {
     id: 7,
-    title: "VIVYS FASHION",
-    description: ` This is a fashion website where users get to see list of
-    displayed proudct, add to cart, view cart and even checkout the product`,
+    title: "VIVYS FASHION -Fashion Storefront & Cart",
+    description: ` A fashion-focused shopping platform where users can browse product catalogs, add items to cart, view order summaries, and simulate checkout. Designed with an eye for clean UI and product visibility.`,
     image: vivys,
     stack: ["React", "css"],
     link: "https://vivys-fashion-house.vercel.app/",
