@@ -8,6 +8,7 @@ import medtech from "../assets/images/medtech.png";
 import timbu from "../assets/images/timbu.png";
 import cosmos from "../assets/images/cosmos.png";
 import { NavLink } from "react-router-dom";
+import funverge from "../assets/images/funverege.png";
 const projects = [
   {
     id: 1,
@@ -27,6 +28,15 @@ const projects = [
   },
   {
     id: 3,
+    title: "FunVerge -Family Recreation Center",
+    description: `FunVerge is a family recreation center that provides a safe and fun environment for children to play and explore. It features activities listings, cart functionality, secure checkout, and payment integration with Paystack.`,
+    stack: ["NextJs", "Tailwind CSS", "FireBase", "PayStack"],
+    image: funverge,
+    link: "https://fun-verge.vercel.app/",
+  },
+
+  {
+    id: 4,
     title: "COSMOS -Agricultural Investment Platform",
     description: `Cosmos connects investors with secure, sustainable agricultural projects. The platform presents opportunities for investing in vetted farming operations, with real-time updates and easy tracking.
 
@@ -35,8 +45,9 @@ const projects = [
     image: cosmos,
     link: "https://cosmos-five-beta.vercel.app/",
   },
+
   {
-    id: 4,
+    id: 5,
     title: "AGROLINK -Digital Marketplace for Farmers",
     description: `AgroLink empowers local farmers by providing a platform to showcase and sell their products directly to consumers. It streamlines the farm-to-table process while improving visibility and income for rural sellers.`,
     image: agro,
@@ -44,7 +55,7 @@ const projects = [
     link: "https://agrolink-wheat.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "LAUNDRY EASE -Laundry Service Scheduling App",
     description: `Laundry Ease allows users to schedule and manage laundry services with ease. Features include service selection, time-slot booking, and pricing visibility in a mobile-friendly interface.`,
     image: laundry,
@@ -53,7 +64,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "FARMTRUST -Family Account Management Tool",
     description: `FarmTrust is a web app designed to help families manage their shared financial resources. Users can create accounts, track contributions, and monitor spending in a simple dashboard.
 
@@ -63,7 +74,7 @@ const projects = [
     link: "http://famtrustproject.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "VIVYS FASHION -Fashion Storefront & Cart",
     description: ` A fashion-focused shopping platform where users can browse product catalogs, add items to cart, view order summaries, and simulate checkout. Designed with an eye for clean UI and product visibility.`,
     image: vivys,
@@ -106,14 +117,17 @@ const Projects = ({ project }) => {
         {project.description}
       </p>
       <div className="py-8">
-        <p className="font-semibold">{project.stack. join(", ").toUpperCase()}</p>        
+        <p className="font-semibold">
+          {project.stack.join(", ").toUpperCase()}
+        </p>
       </div>
       <div className="flex justify-between">
-        <NavLink to={project.link}>
+        <a href={project.link} target="_blank"
+  rel="noopener noreferrer">
           <div className="border-[1px] border-black hover:bg-[#FDC435] rounded-md px-5 py-2 w-36">
             View Project
           </div>
-        </NavLink>
+        </a>
       </div>
     </div>
   );
