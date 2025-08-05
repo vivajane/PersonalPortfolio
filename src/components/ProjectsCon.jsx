@@ -13,7 +13,7 @@ const projects = [
   {
     id: 1,
     title: "MEDTECH -Online Healthcare Booking Platform",
-    description: `A responsive healthcare web application that enables patients to seamlessly book doctor appointments online. Features include doctor listings, appointment scheduling, and user authentication, all within a clean and intuitive interface.`,
+    description: `A responsive full-stack web application that enables patients to seamlessly book doctor appointments online. Features include doctor listings, appointment scheduling, and user authentication, all within a clean and intuitive interface.`,
     image: medtech,
     link: "https://med-tech-theta.vercel.app/",
     stack: ["React", "Tailwind CSS", "FireBase", "Render", "Express.js"],
@@ -21,7 +21,7 @@ const projects = [
   {
     id: 2,
     title: "TIMBU WEBSITE -E-Commerce Marketplace",
-    description: `Timbu is a dynamic e-commerce platform that facilitates user-to-user buying and selling of products. It features product listings, cart functionality, secure checkout, and payment integration with Paystack.`,
+    description: `Timbu is a full-stack e-commerce platform that facilitates user-to-user buying and selling of products. It features product listings, cart functionality, secure checkout, and payment integration with Paystack.`,
     image: timbu,
     link: "https://timbu-e-commerce-app.vercel.app/",
     stack: ["React", "Tailwind CSS", "FireBase", "PayStack"],
@@ -29,7 +29,7 @@ const projects = [
   {
     id: 3,
     title: "FunVerge -Family Recreation Center",
-    description: `FunVerge is a family recreation center that provides a safe and fun environment for children to play and explore. It features activities listings, cart functionality, secure checkout, and payment integration with Paystack.`,
+    description: `FunVerge is a full-stack web application that provides a family recreation center that provides a safe and fun environment for children to play and explore. It features activities listings, cart functionality, secure checkout, and payment integration with Paystack.`,
     stack: ["NextJs", "Tailwind CSS", "FireBase", "PayStack"],
     image: funverge,
     link: "https://fun-verge.vercel.app/",

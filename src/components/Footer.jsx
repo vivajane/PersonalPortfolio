@@ -24,7 +24,7 @@ const Footer = () => {
           </NavLink>
         </div>
       </div>
-      <div className="text-center">@ojiteli kosisochukwu 2023</div>
+      <div className="text-center">@ojiteli kosisochukwu 2025</div>
     </div>
   );
 };
