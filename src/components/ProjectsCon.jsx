@@ -63,24 +63,7 @@ const projects = [
     link: "https://laundry-ease.vercel.app/",
   },
 
-  {
-    id: 7,
-    title: "FARMTRUST -Family Account Management Tool",
-    description: `FarmTrust is a web app designed to help families manage their shared financial resources. Users can create accounts, track contributions, and monitor spending in a simple dashboard.
 
-`,
-    image: famtrust,
-    stack: ["React", "Tailwind CSS, Node.js", "Express.js"],
-    link: "http://famtrustproject.vercel.app/",
-  },
-  {
-    id: 8,
-    title: "VIVYS FASHION -Fashion Storefront & Cart",
-    description: ` A fashion-focused shopping platform where users can browse product catalogs, add items to cart, view order summaries, and simulate checkout. Designed with an eye for clean UI and product visibility.`,
-    image: vivys,
-    stack: ["React", "css"],
-    link: "https://vivys-fashion-house.vercel.app/",
-  },
 ];
 const ProjectsCon = () => {
   return (
