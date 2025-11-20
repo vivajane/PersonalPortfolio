@@ -4,6 +4,23 @@ const experiences = [
   {
     id: 1,
     title: "Frontend Web Developer",
+    company: "AsteriskRD - Remote",
+
+    date: "SEPTEMBER 2025 - TILL DATE",
+    points: [
+      ` Document features and contribute to knowledge sharing within the team. `,
+      `Collaborate with the development team to build and improve user
+      interfaces using React.js / Next.js.`,
+      `Created and optimized reusable UI components using React and
+      Tailwind CSS.`,
+      `Participate in code reviews, GitHub collaboration, and Agile
+       ceremonies to ensure code quality and teamwork.`,
+      `Utilized Git for version control and collaboration with team members.`,
+    ],
+  },
+  {
+    id: 2,
+    title: "Frontend Web Developer",
     company: "Elva Technologies- Remote",
 
     date: "JULY 2024 - JANUARY  2025",
@@ -16,7 +33,7 @@ const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Frontend Web Developer",
     company: "InternPulse- Remote",
 
